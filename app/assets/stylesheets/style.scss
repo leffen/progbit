@@ -4,12 +4,12 @@
   color: white;
 }
 
-.tech_background  {
+.tech_background {
   background-image: image-url("demo3.jpg");
 }
 
 .carousel {
-  height: 320px;
+  height: 420px;
   background-color: white;
   opacity: 0.5;
   padding-top: 20px;
@@ -17,9 +17,20 @@
 }
 
 .item img {
-  max-height: 250px;
+  max-height: 350px;
 }
 
 .carousel-inner > .item > img {
-    margin: 0 auto;
+  margin: 0 auto;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 0;
+  left:0;
+  font-size: 30px;
+  font-weight: bold;
+  height: 100%;
+  text-transform: uppercase;
+  width: 100%;
 }
