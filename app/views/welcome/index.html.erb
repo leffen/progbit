@@ -1,37 +1,10 @@
+<% @employees.each do |e| %>
+<div class="col-sm-4 col-xs-12 employee">
+  <%= image_tag e.image, class: "img-responsive img-circle" %>
+  <div class="name"><%=e.name %></div>
+  <div class="title"><%=e.title %></div>
 
-
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <%= image_tag "demo1.jpg", :class => "img-responsive " %>
-      <div class="carousel-caption">
-        System specification
-      </div>
-    </div>
-    <div class="item">
-      <%= image_tag "demo2.jpg", :class => "img-responsive"  %>
-      <div class="carousel-caption">
-        System review
-      </div>
-    </div>
-
-  </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left indicator" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
 </div>
+<% end %>
+
 

@@ -17,7 +17,7 @@
 }
 
 .item img {
-  max-height: 350px;
+  max-height: 370px;
 }
 
 .carousel-inner > .item > img {
@@ -33,4 +33,29 @@
   height: 100%;
   text-transform: uppercase;
   width: 100%;
+}
+
+.employee {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  opacity: 0.98;
+  height: 250px;
+  background-color: white;
+}
+
+.employee img {
+  height: 170px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+}
+
+.employee .name {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.employee .title {
+  text-align: center;
+  font-size: 14px;
 }
