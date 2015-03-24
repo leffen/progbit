@@ -1,0 +1,8 @@
+<% @employees.each do |e| %>
+<div class="col-sm-4 col-xs-12 employee">
+  <%= image_tag e.image, class: "img-responsive img-circle" %>
+  <div class="name"><%=e.name %></div>
+  <div class="title"><%=e.title %></div>
+
+</div>
+<% end %>
