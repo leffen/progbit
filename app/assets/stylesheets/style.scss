@@ -1,0 +1,25 @@
+.header {
+  padding-left: 10px;
+  background-color: black;
+  color: white;
+}
+
+.tech_background  {
+  background-image: image-url("demo3.jpg");
+}
+
+.carousel {
+  height: 320px;
+  background-color: white;
+  opacity: 0.5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.item img {
+  max-height: 250px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}

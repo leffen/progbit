@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Progbit</title>
+  <%= stylesheet_link_tag 'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
+  <%= csrf_meta_tags %>
+</head>
+<body class="tech_background">
+<div class="container-fluid">
+  <div class="row header">
+    <%= render 'shared/header' %>
+  </div>
+  <div class="row">
+    <%= yield %>
+  </div>
+
+</div>
+</body>
+</html>
