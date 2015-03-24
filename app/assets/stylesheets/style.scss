@@ -77,3 +77,25 @@
 .article{
   height: 250px;
 }
+
+
+#footer {
+  background-color: black;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 280px;
+  padding-top: 50px;
+
+}
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+.footertext {
+  color: #ffffff;
+}
